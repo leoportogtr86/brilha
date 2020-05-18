@@ -1,0 +1,57 @@
+body {
+    font-size: 15pt;
+    background-color: #220A37;
+}
+
+*{
+   
+   padding: 0;
+   margin: 0;
+}
+img{
+   
+   width: 30%;
+   margin: 0;
+   position: absolute;
+   right: 30px;
+}
+
+#star {
+   
+   width: 30px;
+   top: 100px;
+   animation: brilha 4s linear infinite;
+}
+
+#star2{
+   
+   width: 40px;
+   left: 30px;
+   top: 200px;
+}
+
+#start{
+   
+   width: 20%;
+   left: 120px;
+   bottom: 30px;
+   animation: pisca 1s linear infinite;
+}
+
+
+@keyframes pisca {
+   
+   50%{
+      
+      opacity: 0.2;
+      
+   }
+}
+
+@keyframes brilha{
+   
+   50%{
+      
+      width: 40px;
+   }
+}
