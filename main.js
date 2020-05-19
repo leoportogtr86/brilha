@@ -6,7 +6,7 @@ let pad = document.querySelector('#pad')
 let trofeu = document.querySelector('#trofeu')
 let win = document.querySelector('#win')
 
-let t = 10000
+let t = 15000
 
 start.onclick = function(){
    
