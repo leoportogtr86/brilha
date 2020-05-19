@@ -227,7 +227,7 @@ n46.move(0, -100)
 
 n1.click(()=>{
    
-   window.navigator.vibrate(200)
+   
    
    n1.hide()
    synth.triggerAttackRelease('C4', '4n')
@@ -236,7 +236,7 @@ n1.click(()=>{
 
 n2.click(()=>{
    
-   window.navigator.vibrate(200)
+   
    
    n2.hide()
    synth.triggerAttackRelease('C4', '4n')
@@ -245,7 +245,7 @@ n2.click(()=>{
 
 n3.click(() => {
    
-   window.navigator.vibrate(200)
+   
 
    n3.hide()
    synth.triggerAttackRelease('G4', '4n')
@@ -255,7 +255,7 @@ n3.click(() => {
 
 n4.click(() => {
    
-   window.navigator.vibrate(200)
+   
 
    n4.hide()
    synth.triggerAttackRelease('G4', '4n')
@@ -265,7 +265,7 @@ n4.click(() => {
 
 n5.click(() => {
    
-   window.navigator.vibrate(200)
+   
 
    n5.hide()
    synth.triggerAttackRelease('A4', '4n')
@@ -276,7 +276,7 @@ n5.click(() => {
 
 n6.click(() => {
    
-   window.navigator.vibrate(200)
+   
 
    n6.hide()
    synth.triggerAttackRelease('A4', '4n')
@@ -287,7 +287,7 @@ n6.click(() => {
 
 n7.click(() => {
    
-   window.navigator.vibrate(200)
+   
 
    n7.hide()
    synth.triggerAttackRelease('G4', '4n')
@@ -573,7 +573,7 @@ n31.click(() => {
 
 n32.click(()=>{
    
-   window.navigator.vibrate(200)
+   
    
    n32.hide()
    synth.triggerAttackRelease('C4', '4n')
@@ -582,7 +582,7 @@ n32.click(()=>{
 
 n33.click(()=>{
    
-   window.navigator.vibrate(200)
+   
    
    n33.hide()
    synth.triggerAttackRelease('C4', '4n')
@@ -591,7 +591,7 @@ n33.click(()=>{
 
 n34.click(() => {
    
-   window.navigator.vibrate(200)
+   
 
    n34.hide()
    synth.triggerAttackRelease('G4', '4n')
@@ -601,7 +601,7 @@ n34.click(() => {
 
 n35.click(() => {
    
-   window.navigator.vibrate(200)
+   
 
    n35.hide()
    synth.triggerAttackRelease('G4', '4n')
@@ -611,7 +611,7 @@ n35.click(() => {
 
 n36.click(() => {
    
-   window.navigator.vibrate(200)
+   
 
    n36.hide()
    synth.triggerAttackRelease('A4', '4n')
@@ -622,7 +622,7 @@ n36.click(() => {
 
 n37.click(() => {
    
-   window.navigator.vibrate(200)
+   
 
    n37.hide()
    synth.triggerAttackRelease('A4', '4n')
@@ -633,7 +633,7 @@ n37.click(() => {
 
 n38.click(() => {
    
-   window.navigator.vibrate(200)
+   
 
    n38.hide()
    synth.triggerAttackRelease('G4', '4n')
