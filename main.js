@@ -3,6 +3,8 @@ var synth = new Tone.Synth({oscillator: {type: 'sine'}}).toDestination()
 
 let start = document.querySelector('#start')
 let pad = document.querySelector('#pad')
+let trofeu = document.querySelector('#trofeu')
+let win = document.querySelector('#win')
 
 let t = 10000
 
@@ -715,6 +717,9 @@ n46.click(() => {
 
    n46.hide()
    synth.triggerAttackRelease('C4', '4n')
+   trofeu.style.display = 'block'
+   win.play()
+   pad.pause()
 
 
 
