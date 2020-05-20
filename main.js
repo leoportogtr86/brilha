@@ -1,5 +1,5 @@
 var draw = SVG().addTo('body').size(400,600)
-var synth = new Tone.Synth({oscillator: {type: 'sine'}}).toDestination()
+var synth = new Tone.Synth().toDestination()
 
 let start = document.querySelector('#start')
 let pad = document.querySelector('#pad')
